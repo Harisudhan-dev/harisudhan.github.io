@@ -1,0 +1,9 @@
+@font-face{
+    font-family: 'lora';
+    src: url(../font/Lora/static/Lora-Regular.ttf);
+}
+
+@font-face{
+    font-family:'sans';
+    src:url('../font/Work_Sans/static/WorkSans-Regular.ttf');
+}

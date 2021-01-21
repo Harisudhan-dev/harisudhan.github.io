@@ -1,0 +1,323 @@
+@import url('../css/font.css');
+
+
+:root{
+
+    /* Font */
+    --lora:'lora';
+    --sans:'sans';
+
+    /* Color  */
+   --gray:#4a4a4a;
+   --bule:#096aed;
+   --dark-bule:#2b3384;
+   --lite-bule:#bfcee1;
+   --midnight:#104f55;
+}
+
+/* Global-section */
+
+h1{
+    font-family: var(--sans);
+    font-weight: bold;
+    font-size: 2.8rem;
+    color: var(--midnight);
+    
+}
+
+h2{
+    color: var(--gray);
+}
+
+h3{
+    font-family: var(--lora);
+    color: var(--gray);
+}
+
+h4{
+    font-family: var(--lora);
+    font-size: 1rem;
+    color: var(--gray);
+}
+
+p{
+    font-family: var(--sans);
+    color: var(--gray);
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
+
+.page-header{
+    border: 1px solid var(--bule);
+    box-shadow: 5px 5px 5px #777777;
+    margin-bottom: 3rem;
+}
+
+.year-header{
+    border: 1px solid gray;
+    margin: auto;
+}
+
+.carousel-control-prev-icon{
+    color: var(--gray);
+}
+
+
+/* Nav-bar */
+
+.header-area .main-menu .navbar-toggler{
+    outline: none;
+}
+
+.header-area .main-menu .navbar-nav {
+    margin: auto;
+}
+
+.header-area .main-menu .navbar-nav .nav-link{
+    padding: .5rem 3rem;
+}
+
+.header-area .main-menu .navbar-nav a{
+    font-family: var(--lora);
+    font-size: 1rem;
+    color: gray;
+}
+
+.header-area .main-menu .navbar-nav a:hover{
+    background: var(--bule) ;
+    border-radius: 50px;
+    color: white;
+}
+
+
+
+
+/* Banner-site */
+
+main .banner-section .banner-site .container .row h3{
+    padding-top: 15rem;
+}
+
+
+main .banner-section .banner-site  .banner-image> img{
+    padding: 7rem 0;
+    width: 50rem;  
+}
+
+
+
+/* About-site */
+main .about .about-site .container .row h2{
+    color: var(--midnight);
+    font-size: 2rem;
+    text-align: center;
+}
+
+main .about .about-site .container .text-align{
+    text-align: justify;
+}
+main .about .about-site .container .row .cv{
+    text-align: center;
+}
+
+.button{
+    background: var(--lite-bule);
+    border-radius: 50px;
+    color: white;
+    font-family: var(--lora);
+    transition: .3s ease-in-out;
+} 
+
+.button:hover{
+    background: var(--bule);
+    color: white;
+    box-shadow: 5px 5px 5px #777777;
+}
+
+/* Work-site */
+main .work{
+    padding-top: 4rem;
+}
+
+main .work .work-site .col-lg-6{
+    padding-top: 5rem;
+}
+
+main .work .work-site .container .row h2{
+    color: var(--midnight);
+    font-size: 2rem;
+    text-align: center;
+}
+
+main .work .work-site .container .row .work-text h3{
+    color: var(--gray);
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+main .work .work-site .container .row .work-text ul li{
+    padding: 3px;
+    font-family: var(--sans);
+    font-size: 1.3rem;
+    color: var(--gray);
+}
+
+main .work .work-site .container .row .company-text{
+    margin: 5rem;
+}
+
+main .work .work-site .container .row .company-text .company-name{
+    color: var(--midnight);
+    font-weight: 1000;
+}
+
+main .work .work-site .container .row .company-text ul{
+    text-align: center;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px #777777;
+    padding: 0rem;
+
+}
+main .work .work-site .container .row .company-text ul li{
+    list-style: none;
+    padding: 10px;
+    font-family: var(--lora);
+    font-size: 1.3rem;
+    color: var(--gray);
+}
+
+
+
+/* Education */
+
+main .education{
+    margin-top: 3rem;
+}
+main .education .education-site .container .row h2{
+    color: var(--midnight);
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+main .education .education-site .row h3{
+    font-family: var(--lora);
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 5px;
+    line-height: 2rem;
+}
+
+main .education .education-site .container .school {
+    background-color: white;
+    box-shadow: 5px 5px 5px #777777;
+}
+
+main .education .education-site .container .clg {
+    background-color: white;
+    box-shadow: 5px 5px 5px #777777;
+}
+
+main .education .education-site .row h4{
+    font-family: var(--lora);
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1.3rem;
+}
+
+
+/* Skill */
+
+main .skill .skill-site .row h2{
+    color: var(--midnight);
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+
+
+/* Personal */
+
+
+main .personal .personal-site .container .row h2{
+    color: var(--midnight);
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+}
+
+
+main .personal .personal-site .container .row .detail ul li{
+    list-style: none;
+    padding: 3px;
+    font-family: var(--lora);
+    font-size: 1.5rem;
+    color: var(--gray);
+}
+main .personal .personal-site .container .row .location ul{
+    padding-left: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 3rem;
+}
+main .personal .personal-site .container .row .location ul li{
+    list-style: none;
+    padding: 10px;
+    font-family: var(--lora);
+    font-size: 1.5rem;
+    color: var(--gray);
+}
+
+
+/* footer */
+
+footer .contact-site .container .row h2{
+    color: var(--midnight);
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+footer .contact-site .container{
+    margin-bottom: 3rem;
+}
+
+
+
+
+/* Media-screen */
+
+@media (max-width: 978px) {
+    main .banner-section .banner-site .container .row h3{
+        padding-top: 5rem;
+    }
+
+    main .banner-section .banner-site  .banner-image> img{
+        padding-top: 3rem;
+    }
+
+    main .work .work-site .container .row .company-text{
+        margin: 0rem;
+    }
+
+    main .education .education-site .container .school{
+        margin-bottom: 2rem;
+    }
+
+    main .personal .personal-site .container .row .location ul{
+        padding-left: 2rem;
+        margin-left: 0rem;
+    }
+    
+    main .personal .personal-site .container .row .location ul li{
+        padding-top: 1rem;
+    }
+
+    footer .contact-site .container .row .mail{
+        padding-top: 1rem;
+    }
+}
