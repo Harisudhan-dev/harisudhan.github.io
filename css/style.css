@@ -162,6 +162,10 @@ main .work .work-site .container .row .work-text ul li{
     color: var(--gray);
 }
 
+main .work .work-site .container .row .work-text .cook-text{
+    padding-top: 2rem;
+}
+
 main .work .work-site .container .row .company-text{
     margin: 5rem;
 }
